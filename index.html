@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PostFlow</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+
+  <header class="site">
+    <a class="brand" href="index.html">post<span class="dot">·</span>flow</a>
+    <nav class="top">
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+    </nav>
+  </header>
+
+  <h1>Moves a video from a Drive folder to the platforms it belongs on.</h1>
+  <p class="lede">
+    PostFlow is a small personal automation tool. It watches one Drive
+    folder and publishes new videos to the owner's own accounts &mdash; nothing more.
+  </p>
+
+  <div class="pipeline" role="img" aria-label="Pipeline: Google Drive folder, watched, then published to YouTube, Instagram, and TikTok">
+    <div class="pipe-node source">drive:/AutoPosts</div>
+    <div class="pipe-arrow"></div>
+    <div class="pipe-node">watch</div>
+    <div class="pipe-arrow"></div>
+    <div class="pipe-targets">
+      <div class="pipe-node">youtube.upload</div>
+      <div class="pipe-node">instagram.publish</div>
+      <div class="pipe-node">tiktok.publish</div>
+    </div>
+  </div>
+
+  <section class="block">
+    <h2><span class="idx">01</span> What it does</h2>
+    <p>
+      A new video file appears in a designated Google Drive folder. PostFlow
+      detects it and publishes it to the owner's own YouTube, Instagram,
+      and TikTok accounts &mdash; run by and for one person, on their own
+      content.
+    </p>
+  </section>
+
+  <section class="block">
+    <h2><span class="idx">02</span> Who it's for</h2>
+    <p>
+      Just the owner. PostFlow is not distributed, sold, or offered as a
+      service to other users.
+    </p>
+  </section>
+
+  <section class="block">
+    <h2><span class="idx">03</span> What it touches</h2>
+    <ul>
+      <li><strong>Google Drive</strong> &mdash; reads video files from one folder.</li>
+      <li><strong>YouTube</strong> &mdash; uploads to the owner's channel.</li>
+      <li><strong>Facebook / Instagram</strong> &mdash; publishes to the owner's Page and linked account.</li>
+      <li><strong>TikTok</strong> &mdash; uploads or drafts to the owner's account.</li>
+    </ul>
+  </section>
+
+  <hr class="divider">
+
+  <footer class="site">
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="terms.html">Terms of Service</a>
+    <a href="mailto:YOUR_EMAIL_HERE">YOUR_EMAIL_HERE</a>
+  </footer>
+
+</div>
+</body>
+</html>
